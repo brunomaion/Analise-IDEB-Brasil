@@ -1,0 +1,155 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 21578 entries, 0 to 21577
+Data columns (total 48 columns):
+ #   Column                            Non-Null Count  Dtype  
+---  ------                            --------------  -----  
+ 0   uf                                21578 non-null  object 
+ 1   codigo                            21578 non-null  int64  
+ 2   municipio                         21578 non-null  object 
+ 3   cod.escola                        21578 non-null  int64  
+ 4   escola                            21578 non-null  object 
+ 5   rede                              21578 non-null  object 
+ 6   TXApro_Total_2017                 19609 non-null  float64
+ 7   TXApro_1aSERIE_2017               19410 non-null  float64
+ 8   TXApro_2aSERIE_2017               19501 non-null  float64
+ 9   TXApro_3aSERIE_2017               19601 non-null  float64
+ 10  TXApro_4aSERIE_2017               1212 non-null   float64
+ 11  Indicador de Rendimento (P)_2017  19605 non-null  float64
+ 12  TXApro_Total_2019                 18513 non-null  float64
+ 13  TXApro_1aSERIE_2019               18400 non-null  float64
+ 14  TXApro_2aSERIE_2019               18442 non-null  float64
+ 15  TXApro_3aSERIE_2019               18512 non-null  float64
+ 16  TXApro_4aSERIE_2019               808 non-null    float64
+ 17  Indicador de Rendimento (P)_2019  18513 non-null  float64
+ 18  TXApro_Total_2021                 18022 non-null  float64
+ 19  TXApro_1aSERIE_2021               17919 non-null  float64
+ 20  TXApro_2aSERIE_2021               17899 non-null  float64
+ 21  TXApro_3aSERIE_2021               18020 non-null  float64
+ 22  TXApro_4aSERIE_2021               663 non-null    float64
+ 23  Indicador de Rendimento (P)_2021  18021 non-null  float64
+ 24  TXApro_Total_2023                 18684 non-null  float64
+ 25  TXApro_1aSERIE_2023               18582 non-null  float64
+ 26  TXApro_2aSERIE_2023               18622 non-null  float64
+ 27  TXApro_3aSERIE_2023               18683 non-null  float64
+ 28  TXApro_4aSERIE_2023               508 non-null    float64
+ 29  Indicador de Rendimento (P)_2023  18684 non-null  float64
+ 30  saeb_Mat_2017                     9605 non-null   float64
+ 31  saeb_Port_2017                    9605 non-null   float64
+ 32  saeb_Media_padronizada_2017       9605 non-null   float64
+ 33  saeb_Mat_2019                     12298 non-null  object 
+ 34  saeb_Port_2019                    12298 non-null  object 
+ 35  saeb_Media_padronizada_2019       12081 non-null  float64
+ 36  saeb_Mat_2021                     7196 non-null   float64
+ 37  saeb_Port_2021                    7196 non-null   float64
+ 38  saeb_Media_padronizada_2021       7196 non-null   float64
+ 39  saeb_Mat_2023                     14478 non-null  object 
+ 40  saeb_Port_2023                    14478 non-null  object 
+ 41  saeb_Media_padronizada_2023       14458 non-null  float64
+ 42  IDEB_2017                         9597 non-null   float64
+ 43  IDEB_2019                         12079 non-null  float64
+ 44  IDEB_2021                         7195 non-null   float64
+ 45  IDEB_2023                         14456 non-null  float64
+ 46  Meta_2019                         9597 non-null   float64
+ 47  Meta_2021                         14984 non-null  float64
+dtypes: float64(38), int64(2), object(8)
+memory usage: 7.9+ MB
+
+
+0    uf                                21578            object    
+     -> 100.00% de dados não nulos.
+1    codigo                            21578            int64     
+     -> 100.00% de dados não nulos.
+2    municipio                         21578            object    
+     -> 100.00% de dados não nulos.
+3    cod.escola                        21578            int64     
+     -> 100.00% de dados não nulos.
+4    escola                            21578            object    
+     -> 100.00% de dados não nulos.
+5    rede                              21578            object    
+     -> 100.00% de dados não nulos.
+6    TXApro_Total_2017                 19609            float64   
+     -> 90.87% de dados não nulos.
+7    TXApro_1aSERIE_2017               19410            float64   
+     -> 89.95% de dados não nulos.
+8    TXApro_2aSERIE_2017               19501            float64   
+     -> 90.37% de dados não nulos.
+9    TXApro_3aSERIE_2017               19601            float64   
+     -> 90.84% de dados não nulos.
+10   TXApro_4aSERIE_2017               1212             float64   
+     -> 5.62% de dados não nulos.
+11   Indicador de Rendimento (P)_2017  19605            float64   
+     -> 90.86% de dados não nulos.
+12   TXApro_Total_2019                 18513            float64   
+     -> 85.80% de dados não nulos.
+13   TXApro_1aSERIE_2019               18400            float64   
+     -> 85.27% de dados não nulos.
+14   TXApro_2aSERIE_2019               18442            float64   
+     -> 85.47% de dados não nulos.
+15   TXApro_3aSERIE_2019               18512            float64   
+     -> 85.79% de dados não nulos.
+16   TXApro_4aSERIE_2019               808              float64   
+     -> 3.74% de dados não nulos.
+17   Indicador de Rendimento (P)_2019  18513            float64   
+     -> 85.80% de dados não nulos.
+18   TXApro_Total_2021                 18022            float64   
+     -> 83.52% de dados não nulos.
+19   TXApro_1aSERIE_2021               17919            float64   
+     -> 83.04% de dados não nulos.
+20   TXApro_2aSERIE_2021               17899            float64   
+     -> 82.95% de dados não nulos.
+21   TXApro_3aSERIE_2021               18020            float64   
+     -> 83.51% de dados não nulos.
+22   TXApro_4aSERIE_2021               663              float64   
+     -> 3.07% de dados não nulos.
+23   Indicador de Rendimento (P)_2021  18021            float64   
+     -> 83.52% de dados não nulos.
+24   TXApro_Total_2023                 18684            float64   
+     -> 86.59% de dados não nulos.
+25   TXApro_1aSERIE_2023               18582            float64   
+     -> 86.12% de dados não nulos.
+26   TXApro_2aSERIE_2023               18622            float64   
+     -> 86.30% de dados não nulos.
+27   TXApro_3aSERIE_2023               18683            float64   
+     -> 86.58% de dados não nulos.
+28   TXApro_4aSERIE_2023               508              float64   
+     -> 2.35% de dados não nulos.
+29   Indicador de Rendimento (P)_2023  18684            float64   
+     -> 86.59% de dados não nulos.
+30   saeb_Mat_2017                     9605             float64   
+     -> 44.51% de dados não nulos.
+31   saeb_Port_2017                    9605             float64   
+     -> 44.51% de dados não nulos.
+32   saeb_Media_padronizada_2017       9605             float64   
+     -> 44.51% de dados não nulos.
+33   saeb_Mat_2019                     12298            object    
+     -> 56.99% de dados não nulos.
+34   saeb_Port_2019                    12298            object    
+     -> 56.99% de dados não nulos.
+35   saeb_Media_padronizada_2019       12081            float64   
+     -> 55.99% de dados não nulos.
+36   saeb_Mat_2021                     7196             float64   
+     -> 33.35% de dados não nulos.
+37   saeb_Port_2021                    7196             float64   
+     -> 33.35% de dados não nulos.
+38   saeb_Media_padronizada_2021       7196             float64   
+     -> 33.35% de dados não nulos.
+39   saeb_Mat_2023                     14478            object    
+     -> 67.10% de dados não nulos.
+40   saeb_Port_2023                    14478            object    
+     -> 67.10% de dados não nulos.
+41   saeb_Media_padronizada_2023       14458            float64   
+     -> 67.00% de dados não nulos.
+42   IDEB_2017                         9597             float64   
+     -> 44.48% de dados não nulos.
+43   IDEB_2019                         12079            float64   
+     -> 55.98% de dados não nulos.
+44   IDEB_2021                         7195             float64   
+     -> 33.34% de dados não nulos.
+45   IDEB_2023                         14456            float64   
+     -> 66.99% de dados não nulos.
+46   Meta_2019                         9597             float64   
+     -> 44.48% de dados não nulos.
+47   Meta_2021                         14984            float64   
+     -> 69.44% de dados não nulos.
+
+Total de linhas no DataFrame: 21578
