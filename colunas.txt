@@ -36,14 +36,14 @@ Data columns (total 48 columns):
  30  saeb_Mat_2017                     9605 non-null   float64
  31  saeb_Port_2017                    9605 non-null   float64
  32  saeb_Media_padronizada_2017       9605 non-null   float64
- 33  saeb_Mat_2019                     12298 non-null  object 
- 34  saeb_Port_2019                    12298 non-null  object 
+ 33  saeb_Mat_2019                     12081 non-null  float64
+ 34  saeb_Port_2019                    12081 non-null  float64
  35  saeb_Media_padronizada_2019       12081 non-null  float64
  36  saeb_Mat_2021                     7196 non-null   float64
  37  saeb_Port_2021                    7196 non-null   float64
  38  saeb_Media_padronizada_2021       7196 non-null   float64
- 39  saeb_Mat_2023                     14478 non-null  object 
- 40  saeb_Port_2023                    14478 non-null  object 
+ 39  saeb_Mat_2023                     14458 non-null  float64
+ 40  saeb_Port_2023                    14458 non-null  float64
  41  saeb_Media_padronizada_2023       14458 non-null  float64
  42  IDEB_2017                         9597 non-null   float64
  43  IDEB_2019                         12079 non-null  float64
@@ -51,7 +51,7 @@ Data columns (total 48 columns):
  45  IDEB_2023                         14456 non-null  float64
  46  Meta_2019                         9597 non-null   float64
  47  Meta_2021                         14984 non-null  float64
-dtypes: float64(38), int64(2), object(8)
+dtypes: float64(42), int64(2), object(4)
 memory usage: 7.9+ MB
 
 
@@ -121,10 +121,10 @@ memory usage: 7.9+ MB
      -> 44.51% de dados não nulos.
 32   saeb_Media_padronizada_2017       9605             float64   
      -> 44.51% de dados não nulos.
-33   saeb_Mat_2019                     12298            object    
-     -> 56.99% de dados não nulos.
-34   saeb_Port_2019                    12298            object    
-     -> 56.99% de dados não nulos.
+33   saeb_Mat_2019                     12081            float64   
+     -> 55.99% de dados não nulos.
+34   saeb_Port_2019                    12081            float64   
+     -> 55.99% de dados não nulos.
 35   saeb_Media_padronizada_2019       12081            float64   
      -> 55.99% de dados não nulos.
 36   saeb_Mat_2021                     7196             float64   
@@ -133,10 +133,10 @@ memory usage: 7.9+ MB
      -> 33.35% de dados não nulos.
 38   saeb_Media_padronizada_2021       7196             float64   
      -> 33.35% de dados não nulos.
-39   saeb_Mat_2023                     14478            object    
-     -> 67.10% de dados não nulos.
-40   saeb_Port_2023                    14478            object    
-     -> 67.10% de dados não nulos.
+39   saeb_Mat_2023                     14458            float64   
+     -> 67.00% de dados não nulos.
+40   saeb_Port_2023                    14458            float64   
+     -> 67.00% de dados não nulos.
 41   saeb_Media_padronizada_2023       14458            float64   
      -> 67.00% de dados não nulos.
 42   IDEB_2017                         9597             float64   
