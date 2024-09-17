@@ -1,4 +1,4 @@
 import joblib
 
-tipodoarquivo = ".pdf"
+tipodoarquivo = ".png"
 joblib.dump(tipodoarquivo, 'tipodoarquivo.pkl')
